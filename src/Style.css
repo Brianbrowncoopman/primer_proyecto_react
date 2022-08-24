@@ -1,0 +1,48 @@
+
+.container {
+    width: 100vh;
+    height: 100vh;
+    border: 2px solid black;
+    align-self: center;
+    justify-self: center;
+    padding: 2rem;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tarjeta {
+    width: 400px;
+    height: 200px;
+    border: 5px solid rgb(230, 12, 12);
+    border-radius: 5%;
+    background-color: blueviolet;
+    color: burlywood;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 10px 10px 10px 10px  crimson;
+    }
+
+.nombre {
+    width: 95%;
+    height: 75px;
+    background-color: chocolate;
+    color: cornflowerblue;
+    ;
+}
+.nombre:hover{
+    color: red;
+    background-color: blue;
+}  
+
+.datos {
+    width: 95%;
+    height: 75px;
+    background-color: yellow;
+    color: green;
+}
