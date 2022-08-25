@@ -18,8 +18,8 @@ function App() {
   return (
 
     <div className="App">
-      <p>Hola este es mi inicio en REACt {name}</p>
-      <label htmlFor='name'>Nombre</label>
+      <p> {name} @React.com </p>
+      <label htmlFor='name'>tu correo</label>
       <input type="text" name="name" onChange={onChange}/>
       <Presentacion />
     </div>
