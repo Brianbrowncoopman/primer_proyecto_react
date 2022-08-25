@@ -1,48 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.container {
+body {
     width: 100vh;
-    height: 100vh;
+    height: 33.5rem;
+    background: rgb(61, 59, 100);   
+    align-items: center;
+    justify-content: center;
+}
+
+#root {
+    width: 99%;
+    height: 37.5rem;
+    /*background-color: blue;*/
+    padding: 1rem;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.App {
+    
+    width: 81.25rem;
+    height: 43.5rem;
+    border: 4px solid black;
+   
+}
+
+.bigcontainer{
+    width: 75.4rem;
+  
+    height: 38rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.container {
+    width: 23.5rem;
+    height: 15rem;
+    background-color: rgb(158, 131, 95);
     border: 2px solid black;
-    align-self: center;
-    justify-self: center;
-    padding: 2rem;
-    margin-left: 200px;
+    border-radius: 3%;
+    margin-left: 18%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+
+}
+
+.container1 {
+    width: 23.5rem;
+    height: 15rem;
+    background-color: rgb(153, 114, 63);
+    border: 2px solid rgb(212, 8, 8);
+    border-radius: 3%;
+    margin-left: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
 }
 
 .Tarjeta {
-    width: 400px;
-    height: 200px;
-    border: 5px solid rgb(230, 12, 12);
-    border-radius: 5%;
-    background-color: blueviolet;
-    color: burlywood;
+    width: 18.5rem;
+    height: 8rem;
+    border: 3px solid rgb(45, 2, 100);
+    background-color: rgb(35, 112, 212);
+    border-radius: 10%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    box-shadow: 10px 10px 10px 10px  crimson;
+    gap: 10px;
+    /*box-shadow: 3px 3px 3px 3px  rgb(3, 1, 104);*/
     }
 
 .nombre {
-    width: 95%;
-    height: 75px;
-    background-color: chocolate;
-    color: cornflowerblue;
-    ;
+    width: 75%;
+    height: 45px;    
+    color: rgb(41, 40, 40);
+    font-size: large;
+    border-radius: 15%;
 }
-.nombre:hover{
-    color: red;
-    background-color: blue;
-}  
 
 .datos {
-    width: 95%;
-    height: 75px;
-    background-color: yellow;
-    color: green;
+    width: 75%;
+    height: 45px;
+    color: rgb(41, 40, 40);
+    border-radius: 15%;
+    font-size: large;
 }

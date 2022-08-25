@@ -1,25 +1,26 @@
 
 import './App.css';
 import './Style.css';
-import HelloWorld from './HelloWorld';
 import Presentacion from './MiTarjeta';
-import { useState } from 'react';
+import Caja from './Use';
+import { useState } from 'react'; //no perder
+
 
 
 
 
 function App() {
-  const [name, setName] = useState('');
 
+  const [name, setName] = useState('');
   function onChange(e) {
     setName(e.target.value);
   }
   return (
+
     <div className="App">
-      <p>Hola {name}</p>
+      <p>Hola este es mi inicio en REACt {name}</p>
       <label htmlFor='name'>Nombre</label>
       <input type="text" name="name" onChange={onChange}/>
-      <HelloWorld />
       <Presentacion />
     </div>
   );
